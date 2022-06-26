@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"
-        android:text="GFG Tic Tac Toe"
+        android:text="Tres En Raya"
         android:textSize="45sp"
         android:textStyle="bold"
         app:fontFamily="cursive"
@@ -24,7 +24,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!--image of the grid-->
+    <!--imagen del grid-->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
@@ -51,7 +51,7 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-            <!--images of the grid boxes-->
+            <!--imagenes de las cajas del grid-->
             <ImageView
                 android:id="@+id/imageView0"
                 android:layout_width="match_parent"
@@ -150,7 +150,7 @@
 
     </LinearLayout>
 
-    <!--game status text display-->
+    <!--display del estado del juego-->
     <TextView
         android:id="@+id/status"
         android:layout_width="wrap_content"
